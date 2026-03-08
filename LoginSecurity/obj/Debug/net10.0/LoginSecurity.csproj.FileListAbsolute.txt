@@ -1,0 +1,14 @@
+C:\Users\USUARIO\Desktop\LoginSecurity\LoginSecurity\bin\Debug\net10.0\LoginSecurity.exe
+C:\Users\USUARIO\Desktop\LoginSecurity\LoginSecurity\bin\Debug\net10.0\LoginSecurity.deps.json
+C:\Users\USUARIO\Desktop\LoginSecurity\LoginSecurity\bin\Debug\net10.0\LoginSecurity.runtimeconfig.json
+C:\Users\USUARIO\Desktop\LoginSecurity\LoginSecurity\bin\Debug\net10.0\LoginSecurity.dll
+C:\Users\USUARIO\Desktop\LoginSecurity\LoginSecurity\bin\Debug\net10.0\LoginSecurity.pdb
+C:\Users\USUARIO\Desktop\LoginSecurity\LoginSecurity\obj\Debug\net10.0\LoginSecurity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Desktop\LoginSecurity\LoginSecurity\obj\Debug\net10.0\LoginSecurity.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Desktop\LoginSecurity\LoginSecurity\obj\Debug\net10.0\LoginSecurity.AssemblyInfo.cs
+C:\Users\USUARIO\Desktop\LoginSecurity\LoginSecurity\obj\Debug\net10.0\LoginSecurity.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\LoginSecurity\LoginSecurity\obj\Debug\net10.0\LoginSecurity.dll
+C:\Users\USUARIO\Desktop\LoginSecurity\LoginSecurity\obj\Debug\net10.0\refint\LoginSecurity.dll
+C:\Users\USUARIO\Desktop\LoginSecurity\LoginSecurity\obj\Debug\net10.0\LoginSecurity.pdb
+C:\Users\USUARIO\Desktop\LoginSecurity\LoginSecurity\obj\Debug\net10.0\LoginSecurity.genruntimeconfig.cache
+C:\Users\USUARIO\Desktop\LoginSecurity\LoginSecurity\obj\Debug\net10.0\ref\LoginSecurity.dll
