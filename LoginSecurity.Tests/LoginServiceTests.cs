@@ -7,7 +7,7 @@ namespace LoginSecurity.Tests
         [Fact]
         public void DeveAutenticarComSenhaCorreta()
         {
-            var service = new LoginService();
+            var service = new LoginService("123456");
 
             var resultado = service.Autenticar("123456");
 
@@ -17,7 +17,7 @@ namespace LoginSecurity.Tests
         [Fact]
         public void DeveRetornarFalseParaSenhaIncorreta()
         {
-            var service = new LoginService();
+            var service = new LoginService("123456");
 
             var resultado = service.Autenticar("000000");
 
@@ -27,7 +27,7 @@ namespace LoginSecurity.Tests
         [Fact]
         public void DeveIncrementarTentativasAoErrarSenha()
         {
-            var service = new LoginService();
+            var service = new LoginService("123456");
 
             service.Autenticar("111111");
 
@@ -37,7 +37,7 @@ namespace LoginSecurity.Tests
         [Fact]
         public void DeveBloquearAposTresTentativasInvalidas()
         {
-            var service = new LoginService();
+            var service = new LoginService("123456");
 
             service.Autenticar("111111");
             service.Autenticar("222222");
@@ -49,7 +49,7 @@ namespace LoginSecurity.Tests
         [Fact]
         public void NaoDeveAutenticarUsuarioBloqueadoMesmoComSenhaCorreta()
         {
-            var service = new LoginService();
+            var service = new LoginService("123456");
 
             service.Autenticar("111111");
             service.Autenticar("222222");
@@ -63,7 +63,7 @@ namespace LoginSecurity.Tests
         [Fact]
         public void DeveResetarTentativasAoAutenticarComSucesso()
         {
-            var service = new LoginService();
+            var service = new LoginService("123456");
 
             service.Autenticar("111111");
             service.Autenticar("123456");
